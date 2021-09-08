@@ -33,7 +33,7 @@ def power():
     acc = 1
     for power in range(exponent):
         acc = acc * base
-    print(acc)
+    print(base, "^",exponent,"=",acc)
 
 def sumSquares():
     first = eval(input("Enter the starting number: "))
