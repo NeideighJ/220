@@ -30,7 +30,7 @@ def isWon(board,piece):
             continue
         if board[n+2] != piece:
             continue
-        return True
+        return True1
     for i in range(3):
         if board[i] != piece:
             continue
@@ -94,6 +94,7 @@ def play():
                 print("Player X wins!")
                 exit()
             print("It's a tie!")
+            break
 
 
 def main():
