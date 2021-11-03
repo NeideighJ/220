@@ -30,7 +30,7 @@ def isWon(board,piece):
             continue
         if board[n+2] != piece:
             continue
-        return True1
+        return True
     for i in range(3):
         if board[i] != piece:
             continue
