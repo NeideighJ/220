@@ -1,17 +1,25 @@
+"""
+Jonathan Neideigh
+
+three_door_game.py
+
+I hereby certify that this assignment is entirely my work
+
+"""
+
+
 from graphics import Point, Rectangle, Text
 
 
 class Button:
 
     def __init__(self, center, width, height, label):
-        w = width
-        h = height
         x = center.getX()
         y = center.getY()
-        self.x_min = x - w
-        self.x_max = x + w
-        self.y_min = y - h
-        self.y_max = y + h
+        self.x_min = x - width
+        self.x_max = x + width
+        self.y_min = y - height
+        self.y_max = y + height
         p1 = Point(self.x_min, self.y_min)
         p2 = Point(self.x_max, self.y_max)
         self.shape = Rectangle(p1, p2)

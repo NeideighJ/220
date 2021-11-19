@@ -1,3 +1,13 @@
+"""
+Jonathan Neideigh
+
+three_door_game.py
+
+I hereby certify that this assignment is entirely my work
+
+"""
+
+
 from random import shuffle
 from graphics import GraphWin, Point, Text
 from button import Button
