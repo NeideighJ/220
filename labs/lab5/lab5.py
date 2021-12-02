@@ -128,7 +128,7 @@ def color_shape():
 #
 def process_string():
 
-    s = input("Enter a string")
+    s = input("Enter a string ")
     print(s[0])
     print(s[-1])
     print(s[2:6])
@@ -172,7 +172,6 @@ def another_series():
 def main():
     target()
     triangle()
-    color_shape()
     process_string()
     process_list()
     another_series()
